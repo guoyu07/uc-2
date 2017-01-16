@@ -1,0 +1,1 @@
+<?= yii\bootstrap\Carousel::widget( ['items' => $carousel] ); ?>

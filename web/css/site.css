@@ -1,0 +1,257 @@
+@import url("fonts.css");
+.offset-top-3 {
+  margin-top: 3px; }
+
+.offset-bottom-3 {
+  margin-bottom: 3px; }
+
+.offset-top-5 {
+  margin-top: 5px; }
+
+.offset-bottom-5 {
+  margin-bottom: 5px; }
+
+.offset-top-7 {
+  margin-top: 7px; }
+
+.offset-bottom-7 {
+  margin-bottom: 7px; }
+
+.offset-top-10 {
+  margin-top: 10px; }
+
+.offset-bottom-10 {
+  margin-bottom: 10px; }
+
+.offset-top-15 {
+  margin-top: 15px; }
+
+.offset-bottom-15 {
+  margin-bottom: 15px; }
+
+.offset-top-17 {
+  margin-top: 17px; }
+
+.offset-bottom-17 {
+  margin-bottom: 17px; }
+
+.offset-top-20 {
+  margin-top: 20px; }
+
+.offset-bottom-20 {
+  margin-bottom: 20px; }
+
+.offset-top-25 {
+  margin-top: 25px; }
+
+.offset-bottom-25 {
+  margin-bottom: 25px; }
+
+.offset-top-30 {
+  margin-top: 30px; }
+
+.offset-bottom-30 {
+  margin-bottom: 30px; }
+
+.offset-top-40 {
+  margin-top: 40px; }
+
+.offset-bottom-40 {
+  margin-bottom: 40px; }
+
+.offset-top-50 {
+  margin-top: 50px; }
+
+.offset-bottom-50 {
+  margin-bottom: 50px; }
+
+.offset-top-60 {
+  margin-top: 60px; }
+
+.offset-bottom-60 {
+  margin-bottom: 60px; }
+
+.offset-top-70 {
+  margin-top: 70px; }
+
+.offset-bottom-70 {
+  margin-bottom: 70px; }
+
+.offset-top-80 {
+  margin-top: 80px; }
+
+.offset-bottom-80 {
+  margin-bottom: 80px; }
+
+.offset-top-90 {
+  margin-top: 90px; }
+
+.offset-bottom-90 {
+  margin-bottom: 90px; }
+
+.offset-top-110 {
+  margin-top: 110px; }
+
+.offset-bottom-110 {
+  margin-bottom: 110px; }
+
+.clearfix:after {
+  content: " ";
+  display: table;
+  clear: both; }
+
+.clearfix:before {
+  content: " ";
+  display: table; }
+
+.hidden {
+  display: none; }
+
+.bs-callout {
+  padding: 20px;
+  margin: 20px 0;
+  border: 1px solid #eee;
+  border-left-width: 5px;
+  border-radius: 3px; }
+
+.bs-callout-success {
+  border-left-color: #5cb85c; }
+
+.bs-callout-danger {
+  border-left-color: #d9534f; }
+
+.bs-callout-warning {
+  border-left-color: #f0ad4e; }
+
+.bs-callout-info {
+  border-left-color: #5bc0de; }
+
+.bs-callout h4 {
+  margin-top: 0;
+  margin-bottom: 5px; }
+
+.bs-callout-danger h4 {
+  color: #d9534f; }
+
+.bs-callout-warning h4 {
+  color: #f0ad4e; }
+
+.bs-callout-info h4 {
+  color: #5bc0de; }
+
+h1, h2, h3, h4, h5, h6 {
+  margin: 0; }
+
+html,
+body {
+  height: 100%;
+  font-family: 'PTSansRegular';
+  font-size: 14px;
+  color: #666; }
+
+.panel {
+  border-radius: 0; }
+
+main.panel {
+  border: none;
+  box-shadow: none; }
+
+.social {
+  height: 48px; }
+  .social .icon {
+    margin-top: 6px;
+    margin-left: 12px;
+    background-attachment: scroll;
+    background-repeat: no-repeat;
+    width: 35px;
+    height: 35px;
+    background-color: #eee;
+    border-radius: 20px;
+    display: inline-block; }
+    .social .icon.vk {
+      background-position: -91px -2px; }
+    .social .icon.fb {
+      background-position: -4px -3px; }
+    .social .icon.tw {
+      background-position: -48px -3px; }
+    .social .icon:hover {
+      background-color: white; }
+
+.wrap {
+  min-height: 100%;
+  height: auto;
+  margin: 0 auto -200px;
+  padding: 0 0 200px; }
+
+.breadcrumb {
+  margin-bottom: 0;
+  display: inline-block; }
+
+footer {
+  height: 200px;
+  background-color: #f5f5f5;
+  border-top: 1px solid #ddd; }
+  footer .info {
+    padding: 35px 0; }
+  footer .copyright {
+    padding-top: 20px; }
+
+.breadcrumb, main, aside {
+  margin-top: 15px; }
+
+header {
+  margin-top: 15px; }
+  header .brand .strong {
+    font-weight: bold;
+    font-size: 38px;
+    line-height: 50px; }
+    header .brand .strong span {
+      display: block; }
+
+.table .img-thumbnail {
+  max-width: inherit; }
+
+.html-content img {
+  display: none; }
+
+.black-bg {
+  background-color: #222; }
+
+.white-color {
+  color: #eee; }
+
+.slider-images {
+  margin-top: 15px;
+  margin-bottom: 10px;
+  background-color: #eee; }
+  .slider-images .right.carousel-control, .slider-images .left.carousel-control, .slider-images .carousel-indicators {
+    display: none; }
+
+.reviews-list .seminar-name {
+  font-size: 18px;
+  font-weight: bold;
+  margin-top: 20px;
+  margin-bottom: 5px; }
+
+.site-seminars .panel-form {
+  margin-top: 10px;
+  display: none; }
+  .site-seminars .panel-form .form-sent {
+    color: #5cb85c;
+    font-weight: bold; }
+
+.site-seminars .seminars-list .panel {
+  margin-bottom: 50px; }
+
+.site-seminars .seminars-list .panel-title {
+  font-size: 25px;
+  font-weight: bold; }
+
+.site-seminars .seminars-list .dates {
+  font-size: 14px; }
+
+.site-seminars .seminars-list .price {
+  font-size: 25px; }
+
+.site-seminars .seminars-list .html-text-field p {
+  margin: 0; }

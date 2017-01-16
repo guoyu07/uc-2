@@ -1,0 +1,191 @@
+$white: white;
+$black_grayed: #222;
+$white_grayed: #eee;
+$light_black: #666;
+
+$social_height: 48;
+$footer_height: 200;
+
+@import url('fonts.css');
+@import 'stuff.scss';
+
+h1, h2, h3, h4, h5, h6 {
+  margin: 0;
+}
+
+html,
+body {
+  height: 100%;
+  font-family: 'PTSansRegular';
+  font-size: 14px;
+  color: $light_black;
+  //background-color: $white_grayed;
+}
+
+.panel {
+  border-radius: 0;
+}
+
+main.panel {
+  border: none;
+  box-shadow: none;
+}
+
+.social {
+  height: #{$social_height}px;
+
+  .icon {
+    margin-top: 6px;
+    margin-left: 12px;
+    background-attachment: scroll;
+    background-repeat: no-repeat;
+    width: 35px;
+    height: 35px;
+    background-color: $white_grayed;
+    border-radius: 20px;
+    display: inline-block;
+
+    &.vk {
+      background-position: -91px -2px;
+    }
+
+    &.fb {
+      background-position: -4px -3px;
+    }
+
+    &.tw {
+      background-position: -48px -3px;
+    }
+
+    &:hover {
+      background-color: $white;
+    }
+  }
+}
+
+.wrap {
+  min-height: 100%;
+  height: auto;
+  margin: 0 auto -#{$footer_height}px;
+  padding: 0 0 #{$footer_height}px;
+}
+
+.breadcrumb {
+  margin-bottom: 0;
+  display: inline-block;
+}
+
+footer {
+  height: #{$footer_height}px;
+  background-color: #f5f5f5;
+  border-top: 1px solid #ddd;
+
+  .info {
+    padding: 35px 0;
+  }
+
+  .copyright {
+    padding-top: 20px;
+  }
+}
+
+.breadcrumb, main, aside {
+  margin-top: 15px;
+}
+
+header {
+  margin-top: 15px;
+  .brand {
+    .strong {
+      font-weight: bold;
+      font-size: 38px;
+      line-height: 50px;
+
+      span {
+        display: block;
+      }
+    }
+  }
+}
+
+.table {
+  .img-thumbnail {
+    max-width: inherit;
+  }
+}
+
+.html-content img {
+  display: none;
+}
+
+.black-bg {
+  background-color: $black_grayed;
+}
+
+.white-color {
+  color: $white_grayed;
+}
+
+.slider-images {
+  margin-top: 15px;
+  margin-bottom: 10px;
+  background-color: $white_grayed;
+
+  .right.carousel-control, .left.carousel-control, .carousel-indicators {
+    display: none;
+  }
+}
+
+.reviews-list {
+  .seminar-name {
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 20px;
+    margin-bottom: 5px;
+  }
+
+  .review-author {
+
+  }
+
+  .review-text {
+
+  }
+}
+
+.site-seminars {
+  .panel-form {
+    margin-top: 10px;
+    display: none;
+
+    .form-sent {
+      color: #5cb85c;
+      font-weight: bold;
+    }
+  }
+
+  .seminars-list {
+    .panel {
+      margin-bottom: 50px;
+    }
+
+    .panel-title {
+      font-size: 25px;
+      font-weight: bold;
+    }
+
+    .dates {
+      font-size: 14px;
+    }
+
+    .price {
+      font-size: 25px;
+    }
+
+    .html-text-field {
+      p {
+        margin: 0;
+      }
+    }
+  }
+}

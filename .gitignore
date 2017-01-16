@@ -1,0 +1,5 @@
+.idea/
+node_modules/
+.env
+tests/_support/
+tests/_output/

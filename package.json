@@ -1,0 +1,34 @@
+{
+  "name": "uc-obmencity.ru",
+  "version": "1.0.0",
+  "description": "Yii 2 Basic Project Template\r ============================",
+  "main": "index.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "build": "webpack --watch",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://kllakk@bitbucket.org/kllakk/uc.yii2.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "homepage": "https://bitbucket.org/kllakk/uc.yii2#readme",
+  "dependencies": {
+    "gulp": "*",
+    "gulp-css": "*",
+    "gulp-rename": "*",
+    "gulp-sass": "*",
+    "gulp-uglify": "*",
+    "lodash": "^4.17.3",
+    "minimist": "*"
+  },
+  "devDependencies": {
+    "gulp-sass": "^3.0.0",
+    "webpack": "^1.14.0",
+    "webpack-stream": "^3.2.0"
+  }
+}
