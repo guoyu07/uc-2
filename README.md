@@ -1,7 +1,7 @@
-УСТАНОВКА
+УСТАНОВКА В ТЕКУЩУЮ ДИРЕКТОРИЮ
 ------------
 
-composer install
+composer create-project kllakk/uc ./
 
 npm install
 
