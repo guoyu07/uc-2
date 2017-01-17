@@ -46,6 +46,12 @@
     "scripts": {
         "post-create-project-cmd": [
             "yii\\composer\\Installer::postCreateProject"
+        ],
+        "install-app": [
+            "php yii migrate/up",
+            "npm install",
+            "gulp webpack",
+            "gulp sass"
         ]
     },
     "extra": {
